@@ -6,7 +6,7 @@
     display: grid;
     grid:
       "sidebar body" auto
-      / 17% auto;
+      / 27% auto;
     gap: 0.7px;
     grid-auto-flow: row dense;
   }
@@ -72,4 +72,19 @@ body {
     background-color: rgb(60, 60, 60);
     padding: 27;
 
+}
+
+.articleTitle { 
+
+    padding-top: 27px; 
+    padding-left: 27px; 
+    padding-right: 27px; 
+    text-decoration: underline; 
+
+}
+
+.articleContent { 
+    
+    padding-left: 47px; 
+    
 }
