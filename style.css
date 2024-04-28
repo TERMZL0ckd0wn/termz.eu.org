@@ -1,0 +1,75 @@
+.layout {
+    width: auto;
+    height: auto;
+    margin-bottom: 17px;
+  
+    display: grid;
+    grid:
+      "sidebar body" auto
+      / 17% auto;
+    gap: 0.7px;
+    grid-auto-flow: row dense;
+  }
+  
+.sidebar { 
+
+    grid-area: sidebar; 
+    text-align: center;
+    font-family: monospace;
+    background-color: rgb(60, 60, 60);
+    color: white;
+
+}
+
+.body { 
+
+    grid-area: body; 
+    color: white;
+    margin-top: 137;
+    margin-left: 17;
+    margin-right: 17;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+
+    background-color: black;
+
+}
+
+.mainTitleBar {
+
+    font-size: 100;
+    margin-top: 17;
+    margin-left: 27px;
+        
+
+}
+
+.mainMarkTitleBar {
+
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding-right: 27px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: underline;
+
+}
+
+.warnings {
+
+    background-color: red;
+    padding: 10;
+    text-align: center;
+
+}
+
+.bodyTitle {
+
+    background-color: rgb(60, 60, 60);
+    padding: 27;
+
+}
